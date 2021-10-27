@@ -32,7 +32,7 @@ core() {
 
   install
 
-  log_success "install lima success."
+  log::success "install lima success."
 }
 
 run() {
