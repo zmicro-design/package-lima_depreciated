@@ -9,7 +9,7 @@ help() {
 }
 
 install() {
-  if [ "$(os_is_macos)" = "true" ]; then
+  if [ "$(os::is_macos)" = "true" ]; then
     pm install lima
     return
   fi
